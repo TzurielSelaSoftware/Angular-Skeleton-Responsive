@@ -1,0 +1,106 @@
+
+
+.login-container{
+    background: linear-gradient(45deg,orange 50%,purple 50%);
+
+    height: 100%;
+    .login{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        height: 85%;
+        padding-top: 5%;
+        h1{
+            color:white;
+    
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+            margin-bottom: 20%;
+            color: white;
+            font-size: 22px;
+            margin-bottom: 55px;
+        }
+        .login-area{
+            width: 40%;
+            height: 70%;
+            border-style:solid ;
+            border-color: lightgray;
+            border-width: 1px;
+            border-radius: 5%;
+            box-shadow:  20px  0px 20px 10px  purple , 0px 10px 10px 10px rgba(128, 0, 128, 0.24);
+            .login-box{
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                .password-container,.user-name-container,.submit-container{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+                .password-container,.user-name-container{
+                    i{
+                        font-size: 23px;
+                        display: flex;
+                        align-items: center;
+                        height: 40px;
+                        width: 40px;
+                        margin-top: 2%;
+                        justify-content: center;
+                        color: purple;
+                        border-width: 1;
+                    }
+                    input{
+                        width: 60%;
+                        margin-top: 2%;
+                        margin-bottom: 2%;
+                        transition: width 1s;
+                        cursor: pointer;
+                    }
+                    input:hover{
+                        width: 70%;
+                    }
+    
+                }
+    
+                .submit-container{
+    
+                    button{
+                        transition: width 1s;
+                        width: 30%;
+                        background: rgb(110, 0, 110);
+                        border-color: rgb(192, 125, 0);
+                        margin-left: 2%;
+                        i{
+          
+                            color: white;
+                            font-size: 16px;
+                            padding-right: 7%;
+                        }
+        
+                    }
+                    button:hover{
+                        width: 40%;
+                    }
+           
+                }
+    
+                h3{
+                    margin-bottom: 10%;
+                    color: white;
+                }
+            } 
+      
+        }
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .login-area {
+      width: 85%!important;
+    }
+  }

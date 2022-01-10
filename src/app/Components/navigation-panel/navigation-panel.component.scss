@@ -1,0 +1,20 @@
+.side-menu-bar-container{
+    background-color: orange;
+    color: white;
+    height: 100%;
+    .side-bar-menu{
+        height: 100%;
+        .side-bar-menu-inner{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            span{
+                width: 120px;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,28 @@
+<div class="login-container">
+    <div class="login">
+
+        <h1>Welecom To Angular-Skeleton</h1>
+        <h3>Please Login</h3>
+        <div class="login-area">
+            <div class="login-box">
+                <h3>This is a skeleton every credentials will works.</h3>
+                <div class="user-name-container">
+                    <i class="bi bi-person-circle"></i>
+                    <input type="text" [(ngModel)]="loginArgs.userName" class="form-control"
+                        placeholder="Enter User Name">
+                </div>
+                <div class="password-container">
+                    <i class="bi bi-key"></i>
+                    <input type="password" [(ngModel)]="loginArgs.password" class="form-control" placeholder="Password">
+                </div>
+                <div class="submit-container">
+
+                    <button type="submit" (click)="login()" class="btn btn-primary"><i
+                            class="bi bi-box-arrow-in-right"></i>Login</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
