@@ -1,3 +1,6 @@
+![Capture1](https://user-images.githubusercontent.com/45619259/148782634-41ea216e-aaf4-493d-b04b-2fbd0918e323.PNG)
+![Capture2](https://user-images.githubusercontent.com/45619259/148782648-b55948ba-ac29-4036-879c-2ef886631511.PNG)
+
 # AngularSkeleton
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.9.
@@ -25,3 +28,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
